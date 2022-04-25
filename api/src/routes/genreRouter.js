@@ -8,7 +8,7 @@ const {getGenre} = require('../controllers/genrecontrollers');
 const genreRouter = Router();
 
 // Configurar los routers
-genreRouter.get('/genres', getGenre)
+genreRouter.get('/', getGenre)
 
 
 module.exports = genreRouter;

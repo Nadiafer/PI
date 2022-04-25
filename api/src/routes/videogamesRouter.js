@@ -9,6 +9,7 @@ const videosGamesRouter = Router();
 
 // Configurar los routers
 
-videosGamesRouter.get('/videogames', getAllGames)
+videosGamesRouter.get('/', getAllGames)
+
 
 module.exports = videosGamesRouter;

@@ -5,6 +5,7 @@ const axios = require ('axios');
 
 const getAllGames = 
 async (req, res) =>{
+  return res.send('todo okey')
   
   try {
     const api = await  axios.get('https://api.rawg.io/api/games?key=1216c263efa84e7db06b03f5daa18f61');
